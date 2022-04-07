@@ -12,10 +12,15 @@
 	</style>
 	<script>
 		function gaan(){
-			console.log("erg belangrijk");;;;;;
-//			document.getElementById("go").style.backgroundColor = "red";
-			document.getElementById("go").classList.add("mijnstijl");
-}
+			var getallen = [55, 44, 12, 17 , 8, 65, 6];
+			console.log( getallen[2] );
+			getallen[4] = 35;
+			console.log(  getallen[4] );
+
+			for(var x = 0; x < getallen.length   ; x++){
+				console.log( getallen[ x ] );
+			}
+		}
 	</script>
 </head>
 <body>
